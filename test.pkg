@@ -1,0 +1,1 @@
+npm install rollup @rollup/plugin-typescript @rollup/plugin-commonjs @rollup/plugin-node-resolve rollup-plugin-dts rollup-plugin-peer-deps-external rollup-plugin-postcss rollup-plugin-terser rollup-plugin-dts rollup-plugin-peer-deps-external rollup-plugin-postcss rollup-plugin-terser --saveDev
