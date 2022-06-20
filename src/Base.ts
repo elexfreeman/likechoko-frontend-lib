@@ -17,3 +17,5 @@ export const Title = styled.div`
   padding-bottom: 10px;
   border-bottom: 1px solid ${Color.borderBase}; 
 `;
+
+

@@ -1,5 +1,6 @@
 /// <reference types="react" />
 import * as styled_components from 'styled-components';
+import React from 'react';
 
 declare const SayHello: ({ name }: {
     name: string;
@@ -41,4 +42,8 @@ declare namespace Base_d {
   };
 }
 
-export { Base_d as Base, Color_d as Color, SayHello };
+declare const Button: (props: {
+    children?: React.ReactNode;
+}) => JSX.Element;
+
+export { Base_d as Base, Button, Color_d as Color, SayHello };

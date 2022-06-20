@@ -3,7 +3,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import {SayHello, Base} from 'aa-lib';
+import {SayHello, Base, Button} from 'aa-lib';
 
 
 
@@ -11,6 +11,10 @@ function App() {
   return (
     <Base.Container>
       <Base.Title>Заголовок</Base.Title>
+      <br/>
+      <br/>
+      <br/>
+      <Button>Кнопка</Button>
     </Base.Container>
   );
 }
