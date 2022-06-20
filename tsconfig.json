@@ -16,5 +16,6 @@
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true
   },
-   "exclude": ["node_modules", "lib", "dist", "example"]
+   "include": ["src/**/*"],
+   "exclude": ["node_modules", "lib/*", "dist/*", "example/*"]
 }
